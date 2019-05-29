@@ -15,9 +15,10 @@ data segment
   out dx,al
   mov al,00h
   mov dx,pa
- ; out  dx,al
+  out  dx,al
   mov al,0f0h
   out dx,al
+  
   mov dx,pb
   mov al,00h
 
