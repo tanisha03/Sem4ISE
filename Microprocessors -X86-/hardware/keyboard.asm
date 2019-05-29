@@ -20,6 +20,7 @@ tryagain:
         mov bl,01h
         mov bh,03h
         mov cl,00h
+        mov ah,01
 next_row:
         mov dx,pc
         mov al,bl
